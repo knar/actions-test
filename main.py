@@ -197,7 +197,7 @@ def process_files():
 
 
 if __name__ == "__main__":
-    logging.config.fileConfig('./src/logging.conf')
+    logging.config.fileConfig('logging.conf')
 
     config_file = 'config.json'
     if not os.path.isfile(config_file):
