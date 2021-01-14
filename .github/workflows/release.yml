@@ -1,8 +1,8 @@
 name: Package Application with Pyinstaller
 
 on:
-  release:
-    types: [published]
+  push:
+    branches: [ master ]
 
 jobs:
   build_windows:
